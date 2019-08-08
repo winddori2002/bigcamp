@@ -1,2 +1,1 @@
-# bigcamp
-Big Campus project
+# Bigdata Campus project
