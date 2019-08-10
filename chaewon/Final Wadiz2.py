@@ -21,9 +21,9 @@ driver = webdriver.Chrome('./chromedriver')
 login_link = 'https://www.wadiz.kr/web/waccount/wAccountLogin?returnUrl=https://www.wadiz.kr/web/main'
 driver.get(login_link)
 id = driver.find_element_by_css_selector('input#userName')
-id.send_keys('chshin0225@gmail.com') # 본인 이메일 쓸 것
+id.send_keys('') # 본인 이메일 쓸 것
 pw = driver.find_element_by_css_selector('input#password')
-pw.send_keys('cw24352435!') # 본인 비번 쓸 것
+pw.send_keys('') # 본인 비번 쓸 것
 login_btn = driver.find_element_by_css_selector('button#btnLogin')
 login_btn.click()
 
