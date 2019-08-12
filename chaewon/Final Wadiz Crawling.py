@@ -51,10 +51,11 @@ while True:
 # 개별 프로젝트 컨테이너 찾기
 projects = driver.find_elements_by_css_selector('div.ProjectCardList_item__1owJa')
 
-count =1
+count = 1
+idx = 0
 
 for p in projects:
-    idx = 0
+
     print(count)
     # 전체 목록에서 정보 가져오기
 
