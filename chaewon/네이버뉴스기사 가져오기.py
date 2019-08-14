@@ -65,8 +65,6 @@ for n in range(1, max, 10):
 
                     print(related_articles_title)
                     sheet.append([keyword, related_articles_date, related_articles_title])
-        else:
-            continue
 
 print('수집 완료')
 
